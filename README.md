@@ -107,8 +107,8 @@ The agent answers in the chat, and the answer arrives in Telegram.
 | `knownHostsPath` | `''` | known_hosts file |
 | `stateDir` | `~/.hth-bridge` | where the read offset is stored |
 | `sessionId` | `''` | exact session id; empty = newest session on disk |
-| `inFile` | `/var/lib/vpnbot/bridge_in.jsonl` → set yours | inbound queue path on the server |
-| `outFile` | `/var/lib/vpnbot/bridge_out.jsonl` → set yours | outbound queue path |
+| `inFile` | `/var/lib/hth/in.jsonl` | inbound queue path on the server |
+| `outFile` | `/var/lib/hth/out.jsonl` | outbound queue path |
 | `dryRun` | `false` | log incoming messages without injecting them |
 
 > The paths in the example config point to the queue files the relay writes. They must match `HTH_DIR` on the server.
