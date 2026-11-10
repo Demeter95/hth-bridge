@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "HTH Bridge",
+    "description": "Bridges a live Harness session with a Telegram bot: messages arrive as queued prompts, Telegram-originated turns are mirrored back."
+  }
+}

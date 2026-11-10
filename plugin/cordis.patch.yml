@@ -1,0 +1,11 @@
+- insert:
+    - id: hth-bridge
+      name: '@local/hth-bridge'
+      config:
+        host: ''
+        keyPath: ''
+        knownHostsPath: ''
+        inFile: /var/lib/hth/in.jsonl
+        outFile: /var/lib/hth/out.jsonl
+        sessionId: ''
+        dryRun: false

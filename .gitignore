@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# State / queues
+*.jsonl
+*.offset
+
+# Editors
+.idea/
+.vscode/
+.DS_Store
+
+# Node
+node_modules/
+pnpm-lock.yaml
